@@ -1,5 +1,6 @@
 class Ship(object):
     cant_ship = 0
+
     def __init__(self, draft, crew):
         self.draft = draft
         self.crew = crew
