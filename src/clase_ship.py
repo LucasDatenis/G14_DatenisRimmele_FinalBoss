@@ -10,3 +10,4 @@ class Ship(object):
     def is_worth_it(self):
         worthit = self.draft - self.crew * 1.5
         return worthit
+
